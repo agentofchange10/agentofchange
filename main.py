@@ -20,7 +20,7 @@ original_list = ["Pilih Jenis Belanja",
                 "Belanja Bahan Pakai Habis",
                 "Belanja Bahan/Material",
                 "Belanja langganan Telepon/Listrik/Air/Internet/TV Kabel",
-                "Belanja Lengganan Surat Kabar/ Majalah/ Buletin",
+                "Belanja Langganan Surat Kabar/ Majalah/ Buletin",
                 "Belanja Jasa Paket Pengiriman/ Kebersihan/ Keamanan/ Pengelolaan Aset",
                 "Belanja Pajak Bumi dan Bangunan (PBB)",
                 "Belanja Surat Tanda Nomor Kendaraan",
@@ -119,8 +119,8 @@ elif asal == "Belanja langganan Telepon/Listrik/Air/Internet/TV Kabel":
   st.info ("- Bukti Transfer/SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
   st.info ("- e-Billing, e-Faktur PPN dan Bukti Penerimaan Pajak Negara sesuai ketentuan peraturan perundang-undang")
 
-elif asal == "Belanja Lengganan Surat Kabar/ Majalah/ Buletin":
-  st.info ("Dokumen yang perlu dilengkapi untuk Belanja Lengganan Surat Kabar/ Majalah/ Buletin:") 
+elif asal == "Belanja Langganan Surat Kabar/ Majalah/ Buletin":
+  st.info ("Dokumen yang perlu dilengkapi untuk Belanja Langganan Surat Kabar/ Majalah/ Buletin:") 
   st.info ("- Bukti Pembelian/ Pembayaran")
   st.info ("- Surat tagihan dari penyedia jasa")
   st.info ("- Bukti Transfer/SPPT ke pihak penyedia barang/ jasa jika pembayarannya melalui transfer")
@@ -512,3 +512,4 @@ elif asal == "Belanja Modal Pengadaan Perlengkapan Kantor/Peralatan dan Mesin/Al
   st.info ("- e-Billing, e-faktur PPN dan bukti penerimaan pajak negara sesuai ketentuan peraturan perundang-undang") 
   st.info ("- Bukti Transfer")
   
+
